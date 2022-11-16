@@ -14,7 +14,7 @@ if (countN<nThird)
 }
 else
 {
-    var degree = (int)Math.Pow(10, countN-nThird);  // Считаем 10^(countN-nThird)
+    int degree = (int)Math.Pow(10, countN-nThird);  // Считаем 10^(countN-nThird)
     result = (numberN/degree)%10;                   // Делим на 10^(countN-nThird), чтобы отбросить цифры справа от третьей
                                                     // % - чтобы получить саму третью цифру 
     resDescrip = $"{numberN} -> {result}";
