@@ -1,4 +1,7 @@
-﻿Console.WriteLine("Введите число N: ");
+﻿// Задача 13: Напишите программу, которая выводит третью цифру заданного числа или 
+// сообщает, что третьей цифры нет
+// Через логарифм
+Console.WriteLine("Введите число N: ");
 string inputNumber = Console.ReadLine() ?? "";
 
 int numberN = int.Parse(inputNumber);
